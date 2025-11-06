@@ -40,6 +40,7 @@ PRE_SCREEN_FILTER_NOTE = (
 )
 
 RECORDS_EXCLUDED_BOX_TEXT = (
+    "Records excluded:\n"
     "- Not streamflow-focused (n = 232)\n"
     "- No machine-learning approach (n = 104)\n"
     "- No Earth Observation input (n = 20)"

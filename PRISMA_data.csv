@@ -22,7 +22,8 @@ Post-filter records exported: 438",duplicates.html,173
 excluded_automatic,,box3,Records marked as ineligible by automation tools,Records marked as ineligible by automation tools,,,
 excluded_other,,box3,Records removed for other reasons,Records removed for other reasons,,,
 records_screened,node9,box4,Records screened (databases and registers),Records screened,Records screened (databases and registers),records_screened.html,438
-records_excluded,node10,box5,Records excluded (databases and registers),"- Not streamflow-focused (n = 232)
+records_excluded,node10,box5,Records excluded (databases and registers),"Records excluded:
+- Not streamflow-focused (n = 232)
 - No machine-learning approach (n = 104)
 - No Earth Observation input (n = 20)","Abstract screening exclusions summary (n = 356):
 - Not streamflow-focused (n = 232)
