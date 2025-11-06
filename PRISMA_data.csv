@@ -1,0 +1,48 @@
+data,node,box,description,boxtext,tooltips,url,n
+,node4,prevstud,Grey title box; Previous studies,Previous studies,Grey title box; Previous studies,prevstud.html,0
+previous_studies,node5,box1,Studies included in previous version of review,Studies included in previous version of review,Studies included in previous version of review,previous_studies.html,
+previous_reports,,box1,Reports of studies included in previous version of review,Reports of studies included in previous version of review,,previous_reports.html,
+,node6,newstud,Yellow title box; Identification of new studies via databases and registers,Identification of new studies via databases and registers,Yellow title box; Identification of new studies via databases and registers,newstud.html,0
+database_results,node7,box2,Records identified from: Databases,Databases,"Scopus search executed on 2025-11-05
+Initial hits before limits: 611
+Filters applied: publication year 2015-2025, journals, English, article type
+Records exported for screening: 438
+Advanced query: ( TITLE-ABS-KEY ( ( &#39;earth observation&#39; OR &#39;remote sensing&#39; OR satellite ) AND ( &#39;machine learning&#39; OR &#39;deep learning&#39; OR &#39;artificial intelligence&#39; ) AND ( &#39;streamflow&#39; OR &#39;river flow&#39; OR runoff OR discharge ) AND ( forecast* OR predict* OR model* OR simula* ) ) ) AND PUBYEAR > 2014 AND PUBYEAR < 2026 AND ( LIMIT-TO ( SRCTYPE , &#39;j&#39; ) ) AND ( LIMIT-TO ( DOCTYPE , &#39;ar&#39; ) ) AND ( LIMIT-TO ( LANGUAGE , &#39;English&#39; ) )",database_results.html,611
+database_specific_results,,box2,Records identified from: specific databases,Specific Databases,,database_results.html,
+register_results,,box2,Records identified from: Registers,Registers,,,
+register_specific_results,,box2,Records identified from: specific registers,Specific Registers,,database_results.html,
+,node16,othstud,Grey title box; Identification of new studies via other methods,Identification of new studies via other methods,Grey title box; Identification of new studies via other methods,othstud.html,0
+website_results,node17,box11,Records identified from: Websites,Websites,"Records identified from: Websites, Organisations and Citation Searching",website_results.html,
+organisation_results,,box11,Records identified from: Organisations,Organisations,,,
+citations_results,,box11,Records identified from: Citation searching,Citation searching,,,
+duplicates,node8,box3,Duplicate records,Year < 2015 and non-English articles,"Initial Scopus hits before filters: 611
+Applied limits: publication year 2015-2025, journal articles, English language, document type=article
+Records removed: 173 (year < 2015 or non-English)
+Post-filter records exported: 438",duplicates.html,173
+excluded_automatic,,box3,Records marked as ineligible by automation tools,Records marked as ineligible by automation tools,,,
+excluded_other,,box3,Records removed for other reasons,Records removed for other reasons,,,
+records_screened,node9,box4,Records screened (databases and registers),Records screened,Records screened (databases and registers),records_screened.html,438
+records_excluded,node10,box5,Records excluded (databases and registers),"- Not streamflow-focused (n = 232)
+- No machine-learning approach (n = 104)
+- No Earth Observation input (n = 20)","Abstract screening exclusions summary (n = 356):
+- Not streamflow-focused (n = 232)
+- No machine-learning approach (n = 104)
+- No Earth Observation input (n = 20)",records_excluded.html,356
+dbr_sought_reports,node11,box6,Reports sought for retrieval (databases and registers),Reports sought for retrieval,Reports sought for retrieval (databases and registers),dbr_sought_reports.html,82
+dbr_notretrieved_reports,node12,box7,Reports not retrieved (databases and registers),Reports not retrieved,Reports not retrieved (databases and registers),dbr_notretrieved_reports.html,2
+other_sought_reports,node18,box12,Reports sought for retrieval (other),Reports sought for retrieval,Reports sought for retrieval (other),other_sought_reports.html,
+other_notretrieved_reports,node19,box13,Reports not retrieved (other),Reports not retrieved,Reports not retrieved (other),other_notretrieved_reports.html,
+dbr_assessed,node13,box8,Reports assessed for eligibility (databases and registers),Reports assessed for eligibility,Reports assessed for eligibility (databases and registers),dbr_assessed.html,80
+dbr_excluded,node14,box9,"Reports excluded (databases and registers): [separate reasons and numbers using ; e.g. Reason1, xxx; Reason2, xxx; Reason3, xxx]",Reports excluded,Two reports excluded at full-text stage (e.g. conference abstracts).,dbrexcludedrecords.html,"Full-text exclusions, 2"
+other_assessed,node20,box14,Reports assessed for eligibility (other),Reports assessed for eligibility,Reports assessed for eligibility (other),other_assessed.html,
+other_excluded,node21,box15,"Reports excluded (other): [separate reasons and numbers using ; e.g. Reason1, xxx; Reason2, xxx; Reason3, xxx]",Reports excluded,Reports excluded (other),other_excluded.html,
+new_studies,node15,box10,New studies included in review,New studies included in review,New studies included in review,new_studies.html,78
+new_reports,,box10,Reports of new included studies,Reports of new included studies,,,
+total_studies,node22,box16,Total studies included in review,Total studies included in review,Total studies included in review,total_studies.html,78
+total_reports,,box16,Reports of total included studies,Reports of total included studies,,,78
+identification,node1,identification,Blue identification box,Identification,"Review objective:
+Systematically identify, analyse, and synthesise studies using Earth Observation data with machine learning approaches for streamflow forecasting.",identification.html,0
+screening,node2,screening,Blue screening box,Screening,Blue screening box,screening.html,0
+included,node3,included,Blue included box,Included,Blue included box,included.html,0
+total_studies_ma,node23,box17,Total studies included in meta-analysis,Total studies included in meta-analysis,Total studies included in meta-analysis,total_studies_meta_analysis.html,
+total_reports_ma,,box17,Reports of total included studies in meta-analysis,Reports of total included studies in meta-analysis,,,
